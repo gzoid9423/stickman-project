@@ -12,6 +12,7 @@ struct ContentView: View {
             EmojiView(symbol: "🤟", size: 50, x: -35, y : -75)
                 .rotationEffect(.degrees(-15))
             EmojiView(symbol: "👕", size: 95, x: 0,  y: -50)
+            EmojiView(symbol: "🔥", size: 200, x: 0, y: 50)
         }
     
         .frame(width: 200, height: 320)
